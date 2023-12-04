@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTAuthentication.Service",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTAuthentication.Data", "JWTAuthentication.Data\JWTAuthentication.Data.csproj", "{77B34601-F3BA-4227-8376-A07972B22176}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.API", "Application.API\Application.API.csproj", "{DB9FF009-47C5-430C-A682-6C02A1C11AA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application2.API", "Application2.API\Application2.API.csproj", "{6826B64A-3793-4334-950F-BD59E51F81F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{77B34601-F3BA-4227-8376-A07972B22176}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77B34601-F3BA-4227-8376-A07972B22176}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77B34601-F3BA-4227-8376-A07972B22176}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB9FF009-47C5-430C-A682-6C02A1C11AA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB9FF009-47C5-430C-A682-6C02A1C11AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB9FF009-47C5-430C-A682-6C02A1C11AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB9FF009-47C5-430C-A682-6C02A1C11AA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6826B64A-3793-4334-950F-BD59E51F81F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6826B64A-3793-4334-950F-BD59E51F81F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6826B64A-3793-4334-950F-BD59E51F81F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6826B64A-3793-4334-950F-BD59E51F81F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
