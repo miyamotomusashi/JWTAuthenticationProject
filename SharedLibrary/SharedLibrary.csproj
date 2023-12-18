@@ -5,10 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\JWTAuthentication.Data\JWTAuthentication.Data.csproj" />
-    <ProjectReference Include="..\SharedLibrary\SharedLibrary.csproj" />
-  </ItemGroup>
-
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App"></FrameworkReference>
+	</ItemGroup>
 </Project>
