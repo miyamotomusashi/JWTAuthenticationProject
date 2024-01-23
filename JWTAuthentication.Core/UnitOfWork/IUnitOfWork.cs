@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace JWTAuthentication.Core.UnitOfWork
 {
-  internal interface IUnitOfWork
+  public interface IUnitOfWork
   {
+    Task CommitAsync();
+    void Commit();
+
   }
 }
